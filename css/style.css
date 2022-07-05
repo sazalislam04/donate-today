@@ -16,6 +16,21 @@ body {
     padding: 100px 0;
 }
 
+.section-heading {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 1.1px;
+    margin-bottom: 15px;
+}
+
+.section-desc {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
 #header {
     background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.9)), url(../images/donation4.jpg);
     background-size: cover;
@@ -53,4 +68,54 @@ body {
     border: none;
     color: #fff;
     letter-spacing: 1.1px;
+}
+
+.amount-section {
+    text-align: center;
+}
+
+.donate-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+ul li {
+    margin: 0 8px;
+    background: #f8f9fa;
+    padding: 35px 20px;
+    border-radius: 5px;
+    color: #666;
+    font-size: 30px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+
+.active {
+    border: 2px solid #f14456;
+    background: #f144551a;
+    color: #f14456;
+}
+
+input {
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    color: rgba(102, 102, 102, 0.466);
+}
+
+hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 1px;
+    background-color: rgba(102, 102, 102, 0.24);
+    border: none;
+    margin-bottom: 28px;
 }
