@@ -1,5 +1,56 @@
-body {
-    font-family: 'Raleway', sans-serif;
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 100px 0;
+}
+
+#header {
+    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.9)), url(../images/donation4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 60px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.header-desc {
+    color: #e6e6e6;
+    font-size: 18px;
+    padding: 0 300px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.donate-btn {
+    padding: 14px 18px;
+    font-size: 18px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    background: #f14456;
+    border: none;
+    color: #fff;
+    letter-spacing: 1.1px;
 }
