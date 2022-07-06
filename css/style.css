@@ -146,6 +146,7 @@ hr {
 .donate-card-desc {
     line-height: 1.6;
     color: #6c757d;
+    text-align: justify;
 }
 
 #food {
@@ -160,10 +161,17 @@ hr {
     background-color: #fff4d6;
 }
 
+.blog-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .card {
-    width: 25rem;
+    width: 22rem;
+    height: 100%;
     box-shadow: 5px 5px 30px rgb(0, 0, 0, 0.5);
-    text-align: center;
+    text-align: justify;
 }
 
 .card img {
@@ -171,12 +179,14 @@ hr {
     height: 100%;
 }
 
-.blog-title {
+/* .blog-title {
     padding: 10px;
-}
+} */
 
 .blog-desc {
     padding: 10px;
+    margin: 10px 0;
+    line-height: 1.6;
 }
 
 form {
