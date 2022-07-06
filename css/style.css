@@ -99,14 +99,14 @@ ul li {
     color: #f14456;
 }
 
-input {
+.amount {
     font-size: 18px;
     text-align: center;
     border: none;
     outline: none;
 }
 
-input::placeholder {
+.amount::placeholder {
     color: rgba(102, 102, 102, 0.466);
 }
 
@@ -149,13 +149,73 @@ hr {
 }
 
 #food {
-    background-color: rgba(0, 255, 255, 0.089);
+    background-color: #edf5f6;
 }
 
 #shelter {
-    background-color: #f1445517;
+    background-color: #ffeeee;
 }
 
 #education {
-    background-color: rgb(255 218 0 / 16%);
+    background-color: #fff4d6;
+}
+
+.input {
+    text-align: center;
+    background-color: #fff4d6;
+    justify-items: center;
+    width: 70%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input .email {
+    width: 240px;
+    height: 45px;
+    padding: 0 15px;
+    background: #d6d6d6;
+    border: none;
+    font-size: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.email::placeholder {
+    color: #6c757db6;
+    font-weight: 600;
+}
+
+.input label {
+    background: #f14456;
+    text-align: center;
+    line-height: 3;
+    width: 140px;
+    height: 45px;
+    color: #fff;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+footer {
+    margin-top: 100px;
+    background: #0b0d17;
+    padding: 50px;
+    text-align: center;
+}
+
+footer h1 {
+    text-transform: capitalize;
+    color: #f14456;
+    margin-bottom: 15px;
+    font-family: cursive;
+}
+
+footer small {
+    color: #b1abab;
 }
