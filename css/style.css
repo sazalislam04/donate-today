@@ -72,6 +72,7 @@ body {
 #donate-section {
     text-align: center;
     padding: 80px;
+    padding-top: 120px;
 }
 
 .donate-list {
@@ -100,6 +101,7 @@ ul li {
 
 #donate-plan {
     padding: 80px;
+    background: #f8f9fa;
 }
 
 .amount {
@@ -211,6 +213,7 @@ hr {
 
 #form-section {
     padding: 80px;
+    background: #f8f9fa;
 }
 
 form {
