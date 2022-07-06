@@ -171,7 +171,6 @@ hr {
     width: 22rem;
     height: 100%;
     box-shadow: 5px 5px 30px rgb(0, 0, 0, 0.5);
-    text-align: justify;
 }
 
 .card img {
@@ -179,14 +178,16 @@ hr {
     height: 100%;
 }
 
-/* .blog-title {
+.blog-title {
     padding: 10px;
-} */
+    color: #0b0d17;
+}
 
 .blog-desc {
     padding: 10px;
     margin: 10px 0;
     line-height: 1.6;
+    text-align: justify;
 }
 
 form {
