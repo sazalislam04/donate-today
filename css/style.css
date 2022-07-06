@@ -12,10 +12,6 @@ body {
     margin: 0 auto;
 }
 
-.section {
-    padding-top: 100px;
-}
-
 .section-heading {
     text-align: center;
     font-size: 40px;
@@ -73,8 +69,9 @@ body {
     cursor: pointer;
 }
 
-.donate-section {
+#donate-section {
     text-align: center;
+    padding: 80px;
 }
 
 .donate-list {
@@ -99,6 +96,10 @@ ul li {
     border: 2px solid #f14456;
     background: #f144551a;
     color: #f14456;
+}
+
+#donate-plan {
+    padding: 80px;
 }
 
 .amount {
@@ -164,6 +165,10 @@ hr {
     background-color: #fff4d6;
 }
 
+#blog-section {
+    padding: 80px;
+}
+
 .blog-card {
     display: flex;
     justify-content: space-between;
@@ -204,6 +209,10 @@ hr {
     text-decoration: none;
 }
 
+#form-section {
+    padding: 80px;
+}
+
 form {
     background-color: #fff4d6;
     width: 70%;
@@ -240,9 +249,8 @@ form .submit {
 }
 
 footer {
-    margin-top: 100px;
     background: #0b0d17;
-    padding: 50px;
+    padding: 60px;
     text-align: center;
 }
 
