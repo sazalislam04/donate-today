@@ -33,7 +33,7 @@ body {
 }
 
 #header {
-    background-image: linear-gradient(rgb(0, 0, 0, 0.3), rgb(0, 0, 0, 0.9)), url(../images/donation4.jpg);
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.9)), url(../images/donation9.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
